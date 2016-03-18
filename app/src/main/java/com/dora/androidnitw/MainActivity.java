@@ -91,7 +91,9 @@ public class MainActivity extends AppCompatActivity
             ImageFragment frag=new ImageFragment();
             fm.beginTransaction().replace(R.id.container,frag).commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_notes) {
+            NotesFragment frag=new NotesFragment();
+            fm.beginTransaction().replace(R.id.container,frag).commit();
 
         } else if (id == R.id.nav_manage) {
 
